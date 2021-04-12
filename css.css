@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(252, 227, 231);
+}
+li {
+    list-style: none;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    width: 1360px;
+    height: 90px;
+    background-color: rgba(216, 42, 149,.4);
+}
+.head .logo {
+    float: left;
+    width: 400px;
+    height: 80px;
+    background-color: rgb(224, 100, 100);
+}
+.head .search {
+    width: 500px;
+    height: 50px;
+    margin: 30px;
+}
+.head .search input {
+    float: left;
+    width: 440px;
+    height: 40px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+}
+.head .search .sousuo {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+}
+.head .search .sousuo img {
+    width: 30px;
+    margin: 6px 11px;
+}
+.head .regist {
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin: 30px 250px 0 0;
+}
+.head .regist img {
+    width: 30px;
+    margin: 5px;
+}
+.head .regist img:hover {
+    cursor: pointer;
+}
+.box {
+    position: relative;
+    width: 1360px;
+    height: 650px;
+    background-color: #fff;
+}
+.box .toolbar-x {
+    width: 1360px;
+    height: 50px;
+    padding-top: 0px;
+    background-color: rgb(245, 199, 72);
+}
+.box .toolbar-x .x-li {
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+}
+.box .toolbar-x .x-li ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 11px;
+}
+.box .toolbar-x img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.box .toolbar-y {
+    width: 50px;
+    height: 600px;
+    margin: -21px 0;
+    background-color: rgb(245, 199, 72);
+}
+.box .toolbar-y .y-li {
+    width: 50px;
+    height: 500px;
+    margin-top: 20px;
+}
+.box .toolbar-y .y-li ul li {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.box .toolbar-y img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.box .juxing {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 1300px;
+    height: 580px;
+    background-color: rgba(107, 110, 110, 0.548);
+}
